@@ -1,0 +1,12 @@
+.backColor {
+    background-color: rgb(151, 151, 151);
+}
+
+.name {
+    margin-top: 85px;
+    font-size: x-large;
+    margin-left: 50px;
+    font-family: 'Comic Sans MS';
+    color: rgb(44, 44, 44);
+    font-weight: bolder;
+}
