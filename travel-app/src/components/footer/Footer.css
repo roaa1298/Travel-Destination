@@ -1,0 +1,27 @@
+.foot {
+    background-color: #282c34;
+  min-height: 10vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.face {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.insta {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.copy {
+    float: left;
+    margin-left: 400px;
+}
