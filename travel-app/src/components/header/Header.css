@@ -2,9 +2,23 @@
     background-color: #282c34;
   min-height: 25vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
   /* font-size: calc(10px + 2vmin); */
   color: white;
+}
+
+.home {
+  float: left;
+  margin-top: 70px;
+  margin-left: 100px;
+  color: white;
+  font-size: large;
+}
+
+.title {
+  float: left;
+  margin-top: 65px;
+  margin-left: 400px;
 }
