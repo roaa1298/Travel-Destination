@@ -1,0 +1,17 @@
+.para {
+    border-style: inset;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    background-color: #DDDDDD;
+}
+
+.price {
+    color: rgb(0, 82, 0);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.divStyle {
+    background-color: #F8EDE3;
+    border-style: ridge;
+}

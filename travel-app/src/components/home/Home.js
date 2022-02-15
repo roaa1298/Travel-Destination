@@ -6,9 +6,7 @@ import data from '../../data/db.json';
 function Home(){
     return(
         <>
-        <Header />
         <Tour data={data}/>
-        <Footer />
         </>
     );
 }

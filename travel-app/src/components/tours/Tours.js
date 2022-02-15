@@ -1,13 +1,17 @@
 import './Tours.css';
 import Tourx from './tour/Tour';
+import { Link } from 'react-router-dom';
 
 function Tour(props){
     return(
         <>
-        {props.data.map((tour)=>{
+        {props.data.map((tour,idx)=>{
             return(
-
-                <Tourx tour={tour}/>
+                <div key={idx}>
+                    <Link to={`/city/${tour.id}`}>
+                        <Tourx tour={tour}/>
+                    </Link>
+                </div>
 
             );
         })}
